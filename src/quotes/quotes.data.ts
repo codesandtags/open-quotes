@@ -23,4 +23,9 @@ export const quoteList: Quote[] = [
     author: 'Fundamentals of Software Architecture',
     category: QuoteCategory.PROGRAMMING,
   },
+  {
+    quote: 'Imagination is more important than knowledge.',
+    author: 'Albert Einstein',
+    category: QuoteCategory.LIFE,
+  },
 ];

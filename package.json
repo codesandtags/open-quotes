@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "npm test && tsc",
     "pack": "npm pack --pack-destination=./dist/",
-    "release": "npm run build && npm publish --public"
+    "release": "npm run build && npm publish --public",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/codesandtags/codesandtags-quotes#readme",
   "devDependencies": {
     "@types/jest": "^29.4.0",
+    "husky": "^8.0.3",
     "jest": "^29.4.3",
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
