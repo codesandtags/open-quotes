@@ -1,12 +1,13 @@
 {
   "name": "@codesandtags/quotes",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A light library with a set of my favorite quotes.",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "npm test && tsc",
-    "publish": "npm build && npm publish"
+    "pack": "npm pack --pack-destination=./dist/",
+    "release": "npm run build && npm publish --public"
   },
   "repository": {
     "type": "git",
