@@ -1,12 +1,12 @@
 {
-  "name": "codesandtags-quotes",
+  "name": "@codesandtags/quotes",
   "version": "1.0.0",
   "description": "A light library with a set of my favorite quotes.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "npm test && tsc",
-    "publish": "npm publish"
+    "publish": "npm build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "quotes",
     "typescript"
   ],
-  "author": "codesandtags <[email](codesandtags@gmail.com)>",
+  "author": "codesandtags <[email](codesandtags@gmail.com)> (codesandtags@gmail.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/codesandtags/codesandtags-quotes/issues"
