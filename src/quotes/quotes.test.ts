@@ -2,7 +2,7 @@ import { getAllQuotes, getRandomQuote, getQuotesByCategory } from './quotes';
 import { QuoteCategory } from './quotes.types';
 
 test('Get all quotes defined', () => {
-  expect(getAllQuotes().length).toBe(6);
+  expect(getAllQuotes().length).toBe(8);
 });
 
 test('Get random quote', () => {
@@ -15,10 +15,10 @@ test('Get random quote', () => {
 
 test('Get quotes by category', () => {
   const quotesProgramming = getQuotesByCategory(QuoteCategory.PROGRAMMING);
-  const quotesLife = getQuotesByCategory(QuoteCategory.PROGRAMMING);
-  const quotesProductivity = getQuotesByCategory(QuoteCategory.PROGRAMMING);
+  const quotesLife = getQuotesByCategory(QuoteCategory.LIFE);
+  const quotesProductivity = getQuotesByCategory(QuoteCategory.PRODUCTIVITY);
 
-  expect(quotesProgramming.length).toBe(2);
-  expect(quotesLife.length).toBe(2);
-  expect(quotesProductivity.length).toBe(2);
+  expect(quotesProgramming.length).toBe(4);
+  expect(quotesLife.length).toBe(3);
+  expect(quotesProductivity.length).toBe(1);
 });
