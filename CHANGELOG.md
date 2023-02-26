@@ -2,8 +2,6 @@
 
 ## 1.0.x (February, 2023)
 
-### Features
-
 - Added first functionality to the library
 - Support to Typescript
 - Added Github Actions to automate the build and publish process to npmjs
