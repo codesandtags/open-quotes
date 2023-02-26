@@ -34,4 +34,15 @@ export const quoteList: Quote[] = [
     author: 'Steve Jobs',
     category: QuoteCategory.LIFE,
   },
+  {
+    quote: 'First, solve the problem. Then, write the code',
+    author: 'John Johnson',
+    category: QuoteCategory.PROGRAMMING,
+  },
+  {
+    quote:
+      'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.',
+    author: 'Martin Fowler',
+    category: QuoteCategory.PROGRAMMING,
+  },
 ];
