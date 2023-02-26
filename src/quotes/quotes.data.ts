@@ -28,4 +28,10 @@ export const quoteList: Quote[] = [
     author: 'Albert Einstein',
     category: QuoteCategory.LIFE,
   },
+  {
+    quote:
+      "Your time is limited, so don't waste it living someone else's life.",
+    author: 'Steve Jobs',
+    category: QuoteCategory.LIFE,
+  },
 ];
