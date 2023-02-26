@@ -2,7 +2,7 @@ import { getAllQuotes, getRandomQuote, getQuotesByCategory } from './quotes';
 import { QuoteCategory } from './quotes.types';
 
 test('Get all quotes defined', () => {
-  expect(getAllQuotes().length).toBe(5);
+  expect(getAllQuotes().length).toBe(6);
 });
 
 test('Get random quote', () => {
