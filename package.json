@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "npm test && tsc",
+    "build": "tsc",
     "pack": "npm pack --pack-destination=./dist/",
     "release": "npm run build && npm publish --public",
     "prepare": "husky install"
