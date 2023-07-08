@@ -1,4 +1,4 @@
-import { quoteList } from './quotes.data';
+import { quoteList } from '../data/quotes.data';
 import { Quote, QuoteCategory } from './quotes.types';
 
 export const getAllQuotes = (): Quote[] => {
@@ -14,5 +14,9 @@ export const getRandomQuote = (): Quote => {
 };
 
 export const getQuotesByCategory = (category: QuoteCategory): Quote[] => {
-  return getAllQuotes().filter((quote) => quote.category === category);
+  return getAllQuotes()
+    .filter((quote) =>
+      quote.categories
+        .filter((quoteCategory) => quoteCategory === category).length > 0
+    );
 };

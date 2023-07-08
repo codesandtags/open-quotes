@@ -1,11 +1,16 @@
 export enum QuoteCategory {
-  PROGRAMMING = 'programming',
-  PRODUCTIVITY = 'productivity',
-  LIFE = 'life',
+  SOFTWARE_ARCHITECTURE = 'Software Architecture',
+  PROGRAMMING = 'Programming',
+  PRODUCTIVITY = 'Productivity',
+  LIFE = 'Life',
 }
 
 export interface Quote {
   quote: string;
-  author: string;
-  category: QuoteCategory;
+  author: {
+    name: string;
+    link: string;
+    profileImage: string;
+  };
+  categories: QuoteCategory[];
 }
