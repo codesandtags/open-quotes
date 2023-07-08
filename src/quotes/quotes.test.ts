@@ -20,7 +20,9 @@ test('Get quotes by category', () => {
   const quotesProgramming = getQuotesByCategory(QuoteCategory.PROGRAMMING);
   const quotesLife = getQuotesByCategory(QuoteCategory.LIFE);
   const quotesProductivity = getQuotesByCategory(QuoteCategory.PRODUCTIVITY);
-  const quoteSoftwareArchiteture = getQuotesByCategory(QuoteCategory.SOFTWARE_ARCHITECTURE);
+  const quoteSoftwareArchiteture = getQuotesByCategory(
+    QuoteCategory.SOFTWARE_ARCHITECTURE
+  );
 
   expect(quotesProgramming.length).toBeGreaterThan(0);
   expect(quotesLife.length).toBeGreaterThan(0);
