@@ -1,5 +1,8 @@
 # Open quotes
 
+[![GitHub release](https://img.shields.io/github/v/release/codesandtags/open-quotes.svg)]()
+[![NPM Version](https://img.shields.io/npm/v/open-quotes.svg)]()
+
 A Typescript/JavaScript library with Software quotes from developers or people in the Tech industry, coming from Open Source to big tech speakers, and writers.
 
 ## Getting started

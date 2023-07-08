@@ -23,9 +23,9 @@
   "author": "codesandtags <[email](codesandtags@gmail.com)> (codesandtags@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codesandtags/codesandtags-quotes/issues"
+    "url": "https://github.com/codesandtags/open-quotes/issues"
   },
-  "homepage": "https://github.com/codesandtags/codesandtags-quotes#readme",
+  "homepage": "https://github.com/codesandtags/open-quotes#readme",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "^18.14.2",
