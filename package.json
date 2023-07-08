@@ -1,6 +1,6 @@
 {
-  "name": "@codesandtags/quotes",
-  "version": "1.2.6",
+  "name": "open-quotes",
+  "version": "0.0.5",
   "description": "A Typescript/JavaScript library with Software quotes from developers or people in the Tech industry.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,11 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandtags/codesandtags-quotes.git"
+    "url": "git+https://github.com/codesandtags/open-quotes.git"
   },
   "keywords": [
     "codesandtags",
     "quotes",
+    "open-quotes",
     "typescript"
   ],
   "author": "codesandtags <[email](codesandtags@gmail.com)> (codesandtags@gmail.com)",
