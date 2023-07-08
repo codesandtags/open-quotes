@@ -1,6 +1,6 @@
 {
   "name": "@codesandtags/quotes",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "A Typescript/JavaScript library with Software quotes from developers or people in the Tech industry.",
   "main": "dist/index.js",
   "scripts": {
