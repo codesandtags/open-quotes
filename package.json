@@ -1,6 +1,6 @@
 {
   "name": "open-quotes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Typescript/JavaScript library with Software quotes from developers or people in the Tech industry.",
   "main": "dist/index.js",
   "scripts": {
